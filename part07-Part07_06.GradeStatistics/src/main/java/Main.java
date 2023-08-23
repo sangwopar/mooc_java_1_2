@@ -8,5 +8,8 @@ public class Main {
         
         // Write your program here -- consider breaking the program into 
         // multiple classes.
+        Grade grade = new Grade();
+        UserInterface userInterface = new UserInterface(grade, scanner);
+        userInterface.start();
     }
 }
